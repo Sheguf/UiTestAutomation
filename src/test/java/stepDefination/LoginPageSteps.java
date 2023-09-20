@@ -34,6 +34,10 @@ public class LoginPageSteps {
 		assertTrue(login.validate_successful_login());
 	}
 	
+	@Then("validate unsuccessful login")
+	public void validate_unsuccessful_login() {
+		assertTrue(login.validate_successful_login());
+	}	
 }
 	
 	
